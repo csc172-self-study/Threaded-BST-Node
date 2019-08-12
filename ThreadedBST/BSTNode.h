@@ -119,6 +119,7 @@ public:
 	}
 };
 
+// Flyweight for null - not that it's necessary in a threaded tree.
 template <typename Key, typename E>
 BSTNode<Key, E>* BSTNode<Key,E>::nullNode = NULL;
 
